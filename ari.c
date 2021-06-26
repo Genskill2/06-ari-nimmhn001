@@ -10,7 +10,7 @@ string ari(string s)
   float val; 
   int readability_index;
 
-  for(int i = 0; i < s.size(); i++)
+  for(int i = 0; s[i] != '\n'; i++)
   {
     if(isalnum(s[i]))
       ch++;
