@@ -3,6 +3,7 @@
 #include <assert.h>
 #include <string.h>
 #include <cs50.h>
+#include <math.h>
 
 string ari(string s)
 {
